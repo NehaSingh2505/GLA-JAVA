@@ -8,6 +8,8 @@ public class Rectangle{
         double breadth=sc.nextDouble();
         double area=length*breadth;
         System.out.println("the area of the rectangle is:"+ area);
+        double perimeter=2*(length+breadth);
+        System.out.println("the perimeter of the rectangle is:"+ perimeter);
         
     }}
 
